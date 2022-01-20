@@ -56,10 +56,6 @@
     camera.position.z = 30;
     camera.lookAt(scene.position);
 
-
-
-    // let effect= new THREE.AsciiEffect(renderer,'  l^u*h*u$a@n');
-    // effect.setSize( window.innerWidth, window.innerHeight)
     //@ts-ignore
     document.getElementById("WebGL-output").append(renderer.domElement);
     renderer.render(scene, camera);
