@@ -30,6 +30,8 @@ import { ElMenu, ElMenuItem, ElSubMenu} from 'element-plus'
           {name:'step0101',route:'/step0101'},
           {name:'step0102',route:'/step0102'},
           {name:'step0103',route:'/step0103'},
+          {name:'step0104',route:'/step0104'},
+          {name:'step0105',route:'/step0105'},
         ]
       },
       {
@@ -53,6 +55,8 @@ import { ElMenu, ElMenuItem, ElSubMenu} from 'element-plus'
 html,body{
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  position: relative;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
