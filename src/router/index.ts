@@ -42,6 +42,11 @@ const router = createRouter({
             name: 'step0202',
             component: () => import('@/views/step02/step0202.vue'),
         },
+        {
+            path: '/step0203',
+            name: 'step0203',
+            component: () => import('@/views/step02/step0203.vue'),
+        },
     ]
 })
 
