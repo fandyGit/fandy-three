@@ -42,6 +42,7 @@ import { ElMenu, ElMenuItem, ElSubMenu} from 'element-plus'
           {name:'step0203',route:'/step0203'},
           {name:'step0204',route:'/step0204'},
           {name:'step0205',route:'/step0205'},
+          {name:'step0206',route:'/step0206'},
         ]
       },
 
