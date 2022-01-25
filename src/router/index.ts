@@ -62,6 +62,26 @@ const router = createRouter({
             name: 'step0206',
             component: () => import('@/views/step02/step0206.vue'),
         },
+        {
+            path: '/step0301',
+            name: 'step0301',
+            component: () => import('@/views/step03/step0301.vue'),
+        },
+        {
+            path: '/step0302',
+            name: 'step0302',
+            component: () => import('@/views/step03/step0302.vue'),
+        },
+        {
+            path: '/step0303',
+            name: 'step0303',
+            component: () => import('@/views/step03/step0303.vue'),
+        },
+        {
+            path: '/step0304',
+            name: 'step0304',
+            component: () => import('@/views/step03/step0304.vue'),
+        },
     ]
 })
 
