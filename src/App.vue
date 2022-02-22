@@ -67,6 +67,38 @@ import { ElMenu, ElMenuItem, ElSubMenu} from 'element-plus'
           {name:'step0406',route:'/step0406'},
         ]
       },
+      {
+        itemName:'step05',
+        children:[
+          {name:'step0501',route:'/step0501'},
+          {name:'step0502',route:'/step0502'},
+          {name:'step0503',route:'/step0503'},
+          {name:'step0504',route:'/step0504'},
+          {name:'step0505',route:'/step0505'},
+          {name:'step0506',route:'/step0506'},
+        ]
+      },
+      {
+        itemName:'step06',
+        children:[
+          {name:'step0601',route:'/step0601'},
+          {name:'step0602',route:'/step0602'},
+          {name:'step0603',route:'/step0603'},
+          {name:'step0604',route:'/step0604'},
+          {name:'step0605',route:'/step0605'},
+        ]
+      },
+      {
+        itemName:'step07',
+        children:[
+          {name:'step0701',route:'/step0701'},
+          {name:'step0702',route:'/step0702'},
+          {name:'step0703',route:'/step0703'},
+          {name:'step0704',route:'/step0704'},
+          {name:'step0705',route:'/step0705'},
+          {name:'step0706',route:'/step0706'},
+        ]
+      },
     ]
   })
   const handleSelect = (routeName:String) => {

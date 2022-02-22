@@ -122,6 +122,76 @@ const router = createRouter({
             name: 'step0406',
             component: () => import('@/views/step04/step0406.vue'),
         },
+        {
+            path: '/step0501',
+            name: 'step0501',
+            component: () => import('@/views/step05/step0501.vue'),
+        },
+        {
+            path: '/step0502',
+            name: 'step0502',
+            component: () => import('@/views/step05/step0502.vue'),
+        },
+        {
+            path: '/step0503',
+            name: 'step0503',
+            component: () => import('@/views/step05/step0503.vue'),
+        },
+        {
+            path: '/step0504',
+            name: 'step0504',
+            component: () => import('@/views/step05/step0504.vue'),
+        },
+        {
+            path: '/step0505',
+            name: 'step0505',
+            component: () => import('@/views/step05/step0505.vue'),
+        },
+        {
+            path: '/step0506',
+            name: 'step0506',
+            component: () => import('@/views/step05/step0506.vue'),
+        },
+        {
+            path: '/step0601',
+            name: 'step0601',
+            component: () => import('@/views/step06/step0601.vue'),
+        },
+        {
+            path: '/step0602',
+            name: 'step0602',
+            component: () => import('@/views/step06/step0602.vue'),
+        },
+        {
+            path: '/step0603',
+            name: 'step0603',
+            component: () => import('@/views/step06/step0603.vue'),
+        },
+        {
+            path: '/step0604',
+            name: 'step0604',
+            component: () => import('@/views/step06/step0604.vue'),
+        },
+        {
+            path: '/step0605',
+            name: 'step0605',
+            component: () => import('@/views/step06/step0605.vue'),
+        },
+        {
+            path: '/step0701',
+            name: 'step0701',
+            component: () => import('@/views/step07/step0701.vue'),
+        },
+        {
+            path: '/step0702',
+            name: 'step0702',
+            component: () => import('@/views/step07/step0702.vue'),
+        },
+        {
+            path: '/step0703',
+            name: 'step0703',
+            component: () => import('@/views/step07/step0703.vue'),
+        },
     ]
 })
 
